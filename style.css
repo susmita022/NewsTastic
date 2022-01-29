@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Serif&family=Righteous&family=Roboto+Slab:wght@400&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+/* HEADER PART */
+
+
+#header{
+  padding:15px;
+}
+
+.logo{
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+}
+
+#date{
+    font-weight: 600;
+    color: black;
+}
+
+/*  NAVIGATION BAR  */
+
+nav{
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+
+#navbar a{
+    color:white;
+}
+
+#navbar a:hover{
+    color:rgb(196, 192, 192);
+}
+
+#navbar a:active{
+    color:rgb(71, 71, 71);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+ .nav-link{
+     color:white;
+ }  
+
+#search {
+    background: #fff;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.06);
+    padding: 35px 0;
+}
+
+.search .fa {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 19px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.search input {
+    width: 100%;
+    background: rgba(125, 125, 125, 0.15);
+    border: none;
+    outline: none;
+    padding: 14px;
+    border-radius: 45px;
+    padding-left: 70px;
+    transition: 0.4s;
+}
+
+.search input:focus {
+    background: var(--whiteColor);
+    box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.05);
+    transition: 0.4s;
+}
+
+#carous-el{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#carous-el a{
+    color:black;
+}
+
+#carous-el h3{
+    font-weight:500;
+}
+
+.carousel-item{
+    justify-content:center;
+    z-index:-1;
+}
+
+#headlines{
+    font-family: 'Abril Fatface', cursive;
+    justify-content: center;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.06);
+    padding: 4%;
+}
+
+/* CARD */
+
+.card{
+    margin-bottom:60px;
+    box-shadow: 0 0 2px 4px rgba(41, 41, 41, 0.06);
+}
+
+.card:hover{
+    box-shadow: 0 0 4px 6px rgb(49, 49, 49, 0.1);
+}
+
+.card a h4{
+    color:#000000;
+    font-weight:500;
+}
+
+#cards{
+    padding: 4%;
+}
+
+footer{
+    background-color:#212529;
+    color:#fff;
+    z-index:1;
+    padding:10px;
+    padding-left:30px;
+}
+footer #titleLogo{
+    padding-top:86px;
+    font-family: 'Righteous', cursive;
+}
+
+#social{
+    color:#fff;
+}
